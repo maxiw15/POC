@@ -47,4 +47,6 @@ function changeEmail(newEmail) {
   });
 }
 
-changeEmail('your_safe_email@example.com');
+window.addEventListener('DOMContentLoaded', () => {
+  changeEmail('your_safe_email@example.com');
+});
