@@ -24,7 +24,6 @@ function changeEmail(newEmail) {
   formData.append('values[name]', 'SecurityTest');
   formData.append('values[lastName]', 'XSS_Proof');
   formData.append('values[secondName]', '');
-  formData.append('values[email]', 'ykfrga64te@vwhins.com');
   formData.append('values[password]', 'ChangeMe');
   formData.append('values[confirmPassword]', 'ChangeMe');
 
