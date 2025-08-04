@@ -26,7 +26,7 @@ function changeEmail(newEmail) {
   formData.append('values[login]', 'test3');
   formData.append('values[secondName]', '');
 
-  fetch('https://karerskaya-sosh.nobl.ru/local/templates/g3/components/openregion/user/.default/http/save.php', {
+  fetch('https://archives.nobl.ru/local/templates/g3/components/openregion/user/.default/http/save.php', {
     method: 'POST',
     headers: {
       'X-Bitrix-Csrf-Token': csrfToken,
